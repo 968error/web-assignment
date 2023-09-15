@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+     --primaryColour : #FF6F00;
+     --black : #1B2028;
+}
+body{
+    position: relative;
+}
+#wrapper{
+    /* position: absolute; */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-color: var(--black); */
+    background: #1B2028 !important;
+    /* position: relative; */
+}
+
+.post-details-container:nth-child(even){
+    display: none;
+}
